@@ -60,9 +60,7 @@ git config --global user.name “name” 配置名字
 ssh-keygen -t rsa -C “注册邮箱”//创建本地密文				SSH 远程访问
 *去对应的目录查找密文文件
 
-
-![image-20240606185322806](C:\Users\ASUS\AppData\Roaming\Typora\typora-user-images\image-20240606185322806.png)
-
+[![image-20240606185322806.png](https://i.postimg.cc/43gMbQk7/image-20240606185322806.png)](https://postimg.cc/xX6t9Hdn)
 
 ssh -T git@github.com// 测试关联密钥是否成功
 
