@@ -60,7 +60,9 @@ git config --global user.name “name” 配置名字
 ssh-keygen -t rsa -C “注册邮箱”//创建本地密文				SSH 远程访问
 *去对应的目录查找密文文件
 
+
 ![image-20240606185322806](C:\Users\ASUS\AppData\Roaming\Typora\typora-user-images\image-20240606185322806.png)
+
 
 ssh -T git@github.com// 测试关联密钥是否成功
 
@@ -72,11 +74,11 @@ git remote remove origin //测除origin别名
 
 #### 6.本地设备与云端仓库的交互逻辑
 
-![image-20240606193507034](C:\Users\ASUS\AppData\Roaming\Typora\typora-user-images\image-20240606193507034.png)
+[![image-20240606193507034.png](https://i.postimg.cc/4ymFN8tM/image-20240606193507034.png)](https://postimg.cc/H81t6964)
 
 ##### 流程如下图所示
 
-![image-20240606193532336](C:\Users\ASUS\AppData\Roaming\Typora\typora-user-images\image-20240606193532336.png)
+[![image-20240606193532336.png](https://i.postimg.cc/c4YGRHgz/image-20240606193532336.png)](https://postimg.cc/9rWkVcBP)
 
 git add code.c代表将代码传送到git缓冲区中
 
@@ -114,6 +116,7 @@ git clone "https仓库地址”//下载开源项目code资源，下载的代码�
 
 #### 10.Markdown 语言
 github可以编写readme，文本修饰语言
-![image-20240607193928067](C:\Users\ASUS\AppData\Roaming\Typora\typora-user-images\image-20240607193928067.png)
-![image-20240607194027112](C:\Users\ASUS\AppData\Roaming\Typora\typora-user-images\image-20240607194027112.png)
 
+[![image-20240607193928067.png](https://i.postimg.cc/6qvgfj3Z/image-20240607193928067.png)](https://postimg.cc/CnwcF4bM)
+
+[![image-20240607194027112.png](https://i.postimg.cc/8kJ2G5HC/image-20240607194027112.png)](https://postimg.cc/5jJ7qfDc)
