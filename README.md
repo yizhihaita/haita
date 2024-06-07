@@ -40,13 +40,13 @@ Marakdown,文本修饰语言，用特殊符号修饰正文效果<br>
 1. 测试
   * 你好
    2. 你好
-### 表格 
+### 表格（下面分别代表左显示，居中，靠右） 
 名字|性别|年龄
 --|:--:|--:
 田原|男|20
 宋|女|21
 孙|男|20
-### 代码片段
+### 代码片段(esc下面的点）
 ```c
 	#include<stdio.h>
 	int main(void)
@@ -55,4 +55,7 @@ Marakdown,文本修饰语言，用特殊符号修饰正文效果<br>
 		return 0;
 	}
 ```
-
+### 超链接技术
+[https://github.com/yizhihaita/haita?tab=readme-ov-file](https://www.github.com "点击访问“)
+### 插入图片
+![名字](图片路径 “悬停标题”)
